@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout Game</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas{
+            border:1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Score:<span id='score'></span></h1>
+    <canvas></canvas>
+    <script src='Ball.js'></script>
+    <script src='Grid.js'></script>
+    <script src='Paddle.js'></script>
+    <script src='canvas.js'></script>
+</body>
+</html>
